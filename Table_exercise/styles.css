@@ -1,0 +1,14 @@
+.one {
+  border: 3px solid lightgrey;
+}
+.one td {
+  border: 3px solid black;
+  text-align: center;
+}
+
+.two {
+  border-collapse: collapse;
+}
+.cell {
+  border: 3px solid black;
+}

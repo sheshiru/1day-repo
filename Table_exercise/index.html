@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- table>(tr>td*2)*2-->
+    <table class="one">
+      <tbody>
+        <tr>
+          <td>As</td>
+          <td>Trèfle</td>
+        </tr>
+        <tr>
+          <td>Carreaux</td>
+          <td>Coeur</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table class="two">
+      <thead>
+        <tr>
+          <th class="cell" colspan="2"></th>
+          <th class="cell" colspan="2">Premier groupe</th>
+          <th class="cell" colspan="2">Deuxième groupe</th>
+        </tr>
+        <tr>
+          <th class="cell"></th>
+          <th class="cell">Personne</th>
+          <th class="cell">Singulier</th>
+          <th class="cell">Pluriel</th>
+          <th class="cell">Singulier</th>
+          <th class="cell">Pluriel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cell" rowspan="3">présent</td>
+          <td class="cell">1</td>
+          <td class="cell">je code</td>
+          <td class="cell">nous codons</td>
+          <td class="cell">je réussis</td>
+          <td class="cell">nous réussissons</td>
+        </tr>
+        <tr>
+          <td class="cell">2</td>
+          <td class="cell">tu codes</td>
+          <td class="cell">vous codez</td>
+          <td class="cell">tu réussis</td>
+          <td class="cell">vous réussissez</td>
+        </tr>
+        <tr>
+          <td class="cell">3</td>
+          <td class="cell">il/elle code</td>
+          <td class="cell">il/elles codent</td>
+          <td class="cell">il/elle réussit</td>
+          <td class="cell">ils/elles réussissent</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
